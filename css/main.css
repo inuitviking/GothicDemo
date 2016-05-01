@@ -1,0 +1,102 @@
+@import url(https://fonts.googleapis.com/css?family=UnifrakturMaguntia|Fondamento);
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	list-style: none;
+	text-decoration: none
+}
+
+@font-face{
+	font-family: Ruritania;
+	src: url(../fonts/Ruritania.ttf);
+}
+
+@font-face{
+	font-family: Germanica;
+	src: url(../fonts/Germanica.ttf);
+}
+
+body{
+	position: relative;
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #EEE;
+	font-family: UnifrakturMaguntia, serif;
+	font-weight: 100;
+}
+
+code{
+	font-family: UnifrakturMaguntia;
+	font-size: 10pt;
+}
+
+/* Flaired edges, by Tomas Theunissen */
+hr{
+	height: 30px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px 0 0 0;
+	border-radius: 20px;
+	margin-top: 31px;
+}
+
+hr:before{
+	/* Not really supposed to work, but does */
+	display: block;
+	content: "";
+	height: 30px;
+	margin-top: -31px;
+	border-style: solid;
+	order-color: black;
+	border-width: 0 0 1px 0;
+	border-radius: 20px;
+}
+
+header h1{
+	font-family: Ruritania, serif;
+	font-weight: 100;
+	color: black;
+}
+
+header nav{
+	position: relative;
+	background-color: #555;
+}
+
+header nav ul{
+	overflow: hidden;
+}
+
+header nav ul li{
+	float: left;
+}
+
+header nav ul li a{
+	color: white;
+	display: block;
+	padding: 5px 20px;
+	transition: all .5s;
+}
+
+header nav ul li a:hover{
+	background-color: #999;
+}
+
+main{
+	padding: 20px 0 20px 0;
+}
+
+section article:not(:first-child){
+	margin-top: 30px;
+}
+
+section article:not(:last-child){
+	padding-bottom: 30px;
+	border-bottom: 1px dashed black;
+}
+
+footer{
+	margin-bottom: 31px;
+}
