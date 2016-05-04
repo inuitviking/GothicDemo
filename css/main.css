@@ -18,6 +18,10 @@
 	src: url(../fonts/Germanica.ttf);
 }
 
+html {
+	overflow-y: scroll;
+}
+
 body{
 	position: relative;
 	max-width: 800px;
