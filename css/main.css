@@ -38,7 +38,7 @@ code{
 	font-size: 10pt;
 }
 
-input, textarea{
+input, textarea, label{
 	font-size: 15pt;
 }
 
@@ -121,12 +121,33 @@ form{
 }
 
 form input, form textarea{
-	width: calc(100% - 25px);
+	width: calc(100% - 10px);
 	padding: 5px;
 	box-sizing: content-box;
-	margin-bottom: 5px;
+	transition: all .5s;
+}
+
+.fillout{
+	margin-bottom: 20px;
+}
+
+.fillout input, .fillout textarea{
+	background-color: transparent;
+	color: #000F55;
+	border-bottom: 1px dashed black;
+	border-top: 0px;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.fillout input:focus, .fillout textarea:focus, form input[type=submit]:hover{
+	background-color: white;
 }
 
 form input[type=submit]{
-	width: calc(100% - 42px);
+	width: calc(100% - 10px);
+	background-color: transparent;
+	border: 1px solid #AAA;
+	border-radius: 5px;
+	color: black;
 }
