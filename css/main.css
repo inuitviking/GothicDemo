@@ -22,18 +22,24 @@ html {
 	overflow-y: scroll;
 }
 
+code, input, textarea, body{
+	font-family: UnifrakturMaguntia;
+}
+
 body{
 	position: relative;
 	max-width: 800px;
 	margin: 0 auto;
 	background-color: #EEE;
-	font-family: UnifrakturMaguntia, serif;
 	font-weight: 100;
 }
 
 code{
-	font-family: UnifrakturMaguntia;
 	font-size: 10pt;
+}
+
+input, textarea{
+	font-size: 15pt;
 }
 
 /* Flaired edges, by Tomas Theunissen */
