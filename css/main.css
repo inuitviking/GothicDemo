@@ -111,16 +111,16 @@ footer{
 form{
 	width: 75%;
 	margin: 0 auto;
-	background-color: red;
 	box-sizing: content-box;
 }
 
 form input, form textarea{
-	width: 100%;
+	width: calc(100% - 25px);
 	padding: 5px;
 	box-sizing: content-box;
+	margin-bottom: 5px;
 }
 
 form input[type=submit]{
-	width: 100%;
+	width: calc(100% - 42px);
 }
