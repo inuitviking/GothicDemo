@@ -35,10 +35,10 @@ body{
 }
 
 code{
-	font-size: 10pt;
+	font-size: 12pt;
 }
 
-input, textarea, label{
+input, textarea, label, p, pre{
 	font-size: 15pt;
 }
 
@@ -67,6 +67,7 @@ hr:before{
 header h1{
 	font-family: Ruritania, serif;
 	font-weight: 100;
+	font-size: 35pt;
 	color: black;
 	margin: 20px auto;
 	text-align: center;
@@ -90,6 +91,7 @@ header nav ul li a{
 	display: block;
 	padding: 5px 20px;
 	transition: all .5s;
+	font-size: 15pt;
 }
 
 header nav ul li a:hover{
