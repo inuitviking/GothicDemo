@@ -6,6 +6,8 @@
 
 		<meta charset="utf-8">
 
+		<script src="js/functions.js"></script>
+
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="icon" type="icon" href="img/main/favicon.ico">
 
@@ -13,7 +15,7 @@
 
 	</head>
 
-	<body>
+	<body onload="init();">
 
 		<header>
 

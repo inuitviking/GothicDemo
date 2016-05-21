@@ -1,7 +1,7 @@
 <main>
 
 	<!-- All forms should have this setup for the CSS to work properly -->
-	<form>
+	<form onload="init();">
 
 		<div class="fillout">
 			<label for="name">Full name</label>
@@ -17,7 +17,7 @@
 		</div>
 		<div class="fillout">
 			<label for="message">Message</label>
-			<textarea name="message" id="message"></textarea>
+			<textarea name="message" id="message" rows="1"></textarea>
 		</div>
 		<input type="submit" name="submit" value="Send">
 
