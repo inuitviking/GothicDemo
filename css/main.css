@@ -23,7 +23,7 @@ html {
 }
 
 code, input, textarea, body{
-	font-family: UnifrakturMaguntia;
+	font-family: UnifrakturMaguntia, serif;
 }
 
 body{
@@ -45,9 +45,8 @@ input, textarea, label{
 /* Flaired edges, by Tomas Theunissen */
 hr{
 	height: 30px;
-	border-style: solid;
-	border-color: black;
-	border-width: 1px 0 0 0;
+	border: 0 solid black;
+	border-top-width: 1px;
 	border-radius: 20px;
 	margin-top: 31px;
 }
@@ -129,7 +128,7 @@ form input, form textarea{
 
 form textarea{
     overflow: hidden;
-    padding: 5px 5px 0px 5px;
+    padding: 5px 5px 0 5px;
     resize: none;
 }
 
@@ -141,9 +140,9 @@ form textarea{
 	background-color: transparent;
 	color: #000F55;
 	border-bottom: 1px dashed black;
-	border-top: 0px;
-	border-left: 0px;
-	border-right: 0px;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
 }
 
 .fillout label{
