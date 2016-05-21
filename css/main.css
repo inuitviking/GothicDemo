@@ -35,7 +35,7 @@ body{
 	position: relative;
 	max-width: 800px;
 	margin: 0 auto;
-	background-color: #EEE;
+	background-color: #DDD9C2;
 	font-weight: 100;
 }
 
@@ -47,10 +47,14 @@ input, textarea, label, p, pre{
 	font-size: 15pt;
 }
 
+code, input, textarea, label, p, pre, h1, h2, h3, h4, h5, h6, footer{
+	color: #2E2D28;
+}
+
 /* Flaired edges, by Tomas Theunissen */
 hr{
 	height: 30px;
-	border: 0 solid black;
+	border: 0 solid #9A9787;
 	border-top-width: 1px;
 	border-radius: 20px;
 	margin-top: 31px;
@@ -63,7 +67,7 @@ hr:before{
 	height: 30px;
 	margin-top: -31px;
 	border-style: solid;
-	order-color: black;
+	border-color: #9A9787;
 	border-width: 0 0 1px 0;
 	border-radius: 20px;
 }
@@ -73,14 +77,14 @@ header h1{
 	font-family: Ruritania, serif;
 	font-weight: 100;
 	font-size: 35pt;
-	color: black;
+	color: #4D4B43;
 	margin: 20px auto;
 	text-align: center;
 }
 
 header nav{
 	position: relative;
-	background-color: #555;
+	background-color: #9A9787;
 }
 
 header nav ul{
@@ -100,7 +104,7 @@ header nav ul li a{
 }
 
 header nav ul li a:hover{
-	background-color: #999;
+	background-color: #ac3235;
 }
 
 main{
@@ -159,7 +163,7 @@ form textarea{
 }
 
 .fillout input:focus, .fillout textarea:focus, form input[type=submit]:hover{
-	background-color: #f6f6f6;
+	background-color: #E7E4D4;
 }
 
 form input[type=submit]{
