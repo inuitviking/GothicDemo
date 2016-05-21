@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=UnifrakturMaguntia|Fondamento);
 
+/*General stuff*/
 *{
 	margin: 0;
 	padding: 0;
@@ -7,6 +8,8 @@
 	list-style: none;
 	text-decoration: none
 }
+
+/*font stuff*/
 
 @font-face{
 	font-family: Ruritania;
@@ -18,12 +21,14 @@
 	src: url(../fonts/Germanica.ttf);
 }
 
-html {
-	overflow-y: scroll;
-}
-
 code, input, textarea, body{
 	font-family: UnifrakturMaguntia, serif;
+}
+
+/*Minor tweaks*/
+
+html {
+	overflow-y: scroll;
 }
 
 body{
@@ -63,6 +68,7 @@ hr:before{
 	border-radius: 20px;
 }
 
+/*Header*/
 header h1{
 	font-family: Ruritania, serif;
 	font-weight: 100;

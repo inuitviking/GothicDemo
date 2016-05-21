@@ -11,7 +11,7 @@
 		<link rel="stylesheet" type="text/css" href="css/main.css">
 		<link rel="icon" type="icon" href="img/main/favicon.ico">
 
-		<title><?=ucfirst(str_replace('_', ' ', $_GET['page'])) ?></title>
+		<title><?=ucfirst(str_replace('_', ' ', $_GET['page']))." - Gothic Demo" ?></title>
 
 	</head>
 
