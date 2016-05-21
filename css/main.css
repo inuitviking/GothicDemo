@@ -140,6 +140,11 @@ form input, form textarea{
 	border-right: 0px;
 }
 
+.fillout label{
+	display: inline-block;
+	width: 100%;
+}
+
 .fillout input:focus, .fillout textarea:focus, form input[type=submit]:hover{
 	background-color: #f6f6f6;
 }
