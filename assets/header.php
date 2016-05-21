@@ -9,7 +9,7 @@
 		<script src="js/functions.js"></script>
 
 		<link rel="stylesheet" type="text/css" href="css/main.css">
-		<link rel="icon" type="icon" href="img/main/favicon.ico">
+		<link rel="icon" type="icon" href="img/main/icon.ico">
 
 		<title><?=ucfirst(str_replace('_', ' ', $_GET['page']))." - Gothic Demo" ?></title>
 
