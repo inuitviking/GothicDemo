@@ -2,6 +2,8 @@
 
 	<h1>History Archive</h1>
 
+	<hr>
+
 	<section>
 
 		<article>
