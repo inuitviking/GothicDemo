@@ -51,6 +51,10 @@ code, input, textarea, label, p, pre, h1, h2, h3, h4, h5, h6, footer{
 	color: #2E2D28;
 }
 
+img{
+	max-width: 100%;
+}
+
 /* Flaired edges, by Tomas Theunissen */
 hr{
 	height: 30px;
