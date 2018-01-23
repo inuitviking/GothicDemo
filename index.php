@@ -1,10 +1,10 @@
 <?php
 
 #requires the connection file
-#require_once('code/connect.php');
+require_once('assets/code/connect.php');
 
-#requires CRUD class
-#require_once('class/CRUD.php');
+#requires Classes
+require_once('assets/code/Classes.php');
 
 if(isset($_GET['page'])){
 
@@ -27,5 +27,4 @@ if(empty($page)){
 	include('pages/'.$page.'.php');
 
 	require_once('assets/footer.php');
-
 }
