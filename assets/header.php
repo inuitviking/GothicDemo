@@ -25,10 +25,10 @@
 
 				<ul class="topnav" id="myTopnav">
 
-					<li><a href="?page=home" class="active">Frontpage</a></li>
-					<li><a href="?page=history">History Archive</a></li>
-					<li><a href="?page=about">About</a></li>
-					<li><a href="?page=contact">Contact</a></li>
+					<li><a href="home" class="active">Frontpage</a></li>
+					<li><a href="history">History Archive</a></li>
+					<li><a href="about">About</a></li>
+					<li><a href="contact">Contact</a></li>
 					<li class="icon"><a href="javascript:void(0);" style="font-size:15px;" onclick="responsiveNav()">☰</a></li>
 
 				</ul>

@@ -14,11 +14,11 @@ if(isset($_GET['page'])){
 
 if(empty($page)){
 
-	header('Location: ?page=home');
+	header('Location: home');
 
 }elseif(!file_exists('pages/'.$page.'.php')){
 
-	print "<script>window.location.replace('?page=404')</script>";
+	print "<script>window.location.replace('404')</script>";
 
 }else{
 
