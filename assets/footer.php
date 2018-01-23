@@ -2,7 +2,11 @@
 
 			<hr >
 
-			<center>Rúnur &copy; 2016</center>
+			<center>
+				<a href="?page=Login">Login</a>
+				<br>
+				Rúnur &copy; 2016 - <?=date("Y"); ?>
+			</center>
 
 		</footer>
 
