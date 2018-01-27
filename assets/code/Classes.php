@@ -13,7 +13,6 @@ class User{
 
 	//LOGIN METHOD
 
-
 	function login(){
 
 		//Get connection to DB
@@ -59,7 +58,6 @@ class User{
 
 
 	//REGISTER METHOD
-
 
 	function register(){
 
