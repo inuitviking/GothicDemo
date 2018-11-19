@@ -1,3 +1,5 @@
+# EVERYTHING IS MOVED TO GITLAB
+
 # GothicDemo
 This is a demo site that I am working on.
 It has to use gothic fonts and seem somewhat old schoolish, but not be resource heavy, so a ton of pictures is not an option.
